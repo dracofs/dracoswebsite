@@ -5,6 +5,7 @@ h2{
   font-style: normal;
   font-weight: 100;
   font-size: 50px;
+  margin-bottom: 0px;
 }
 body{
   background-color: black;
@@ -36,4 +37,15 @@ p{
 }
 .descriptors p{
   flex: 1;
+}
+header{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+#quote{
+  font-weight: 25px;
+  font-family: "Manufacturing Consent";
+  margin-top: 0px;
 }
