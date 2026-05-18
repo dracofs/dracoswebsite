@@ -1,0 +1,39 @@
+h2{
+  text-align: center;
+  color: white;
+  font-family: "Manufacturing Consent", monospace;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 50px;
+}
+body{
+  background-color: black;
+}
+pre{
+  text-align: center;
+  color: white;
+  font-family: monospace;
+}
+footer{
+  text-align: center;
+  color: white;
+  font-family:  monospace;
+  font-style: normal;
+  font-weight: 50;
+}
+p{
+  text-align: center;
+  color: white;
+  font-family:  monospace;
+  font-style: normal;
+  font-weight: 50;
+  font-size: 20px
+}
+.descriptors {
+  align-self: center;
+  display: flex;
+  gap: 50px;
+}
+.descriptors p{
+  flex: 1;
+}
