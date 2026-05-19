@@ -37,6 +37,10 @@ p{
 }
 .descriptors p{
   flex: 1;
+  margin-inline-start: 50px;
+  margin-bottom: 50px;
+  /* line-height: 1.2; */
+  font-family: "Google Sans Code", monospace;
 }
 header{
   color: white;
