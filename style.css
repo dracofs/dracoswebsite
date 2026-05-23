@@ -1,4 +1,21 @@
+.icons{
+    position: relative;
+    margin-top: 68px;
+    margin-left: 25px;
+}
+.fa-github{
+  scale: 1.7;
+}
+.fa-linkedin{
+  margin-left: 11px;
+  scale: 1.7;
+}
+.header{
+  align-self: center;
+  display: flex;
+}
 h2{
+  position: relative;
   text-align: center;
   color: white;
   font-family: "Manufacturing Consent", monospace;
