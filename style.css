@@ -93,7 +93,7 @@ a{
   text-decoration: none;
 }
 a:link{
-  color: whitesmoke;
+  color: rgb(255, 255, 255);
 }
 a:visited{
   color:rgb(255, 255, 255);
