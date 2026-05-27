@@ -1,3 +1,7 @@
+html {
+  scrollbar-gutter: stable;
+}
+
 li{
   display: inline-block;
   align-self: center;
@@ -11,18 +15,6 @@ ol{
 }
 nav {
   border-bottom: 1px solid;
-}
-.icons{
-    position: relative;
-    margin-top: 68px;
-    margin-left: 25px;
-}
-.fa-github{
-  scale: 1.7;
-}
-.fa-linkedin{
-  margin-left: 11px;
-  scale: 1.7;
 }
 .header{
   align-self: center;
