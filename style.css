@@ -86,7 +86,7 @@ header{
 }
 #quote{
   font-weight: 25px;
-  font-family: "Manufacturing Consent";
+  font-family: "Google Sans Code";
   margin-top: 20px;
 }
 a{
@@ -96,5 +96,5 @@ a:link{
   color: whitesmoke;
 }
 a:visited{
-  color:rgb(22, 22, 22);
+  color:rgb(255, 255, 255);
 }
