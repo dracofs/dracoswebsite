@@ -1,3 +1,17 @@
+li{
+  display: inline-block;
+  align-self: center;
+  font-family: "Google Sans Code";
+}
+
+ol{
+  list-style-type: none;
+  padding-left: 0;
+  align-items: center;
+}
+nav {
+  border-bottom: 1px solid;
+}
 .icons{
     position: relative;
     margin-top: 68px;
@@ -73,5 +87,14 @@ header{
 #quote{
   font-weight: 25px;
   font-family: "Manufacturing Consent";
-  margin-top: 0px;
+  margin-top: 20px;
+}
+a{
+  text-decoration: none;
+}
+a:link{
+  color: whitesmoke;
+}
+a:visited{
+  color:rgb(22, 22, 22);
 }
