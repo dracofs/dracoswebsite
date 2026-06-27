@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=, initiadevice-widthl-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./style.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Libertinus+Mono&family=Manufacturing+Consent&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght,MONO@0,300..800,1;1,300..800,1&family=Libertinus+Mono&family=Manufacturing+Consent&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/ccac2bfd7d.js" crossorigin="anonymous"></script>
+    <script src="./blogutil.js" defer></script>
   <title>draco's blog</title>
 </head>
 <body>
@@ -25,13 +26,20 @@
   <div class="descriptors">
     <h2> blog index </h2>
     <p> 
-      <a href="first_post.htm"> why i made a blog </a> - june 12th 2026, 3:47am <br>
+      since this blog contains some sensitive information and trigger,
+      i am only allowing a few select close friends to view its content
+      through a special passcode
+      <br>
+      <br>
+      Enter passcode: <input type="text" id="passcode" name="passcode" placeholder="up to you to figure it out" required> 
+      <br>
+      <a class="blog-post" href="first_post.htm"> why i made a blog </a> - june 12th 2026, 3:47am <br>
       
-      <a href="."> hurt  </a> - june 12th 2026, ???
+      <a class="blog-post" href="hurt.htm"> hurt  </a> - june 27th 2026, 3:39am
     </p>
   </div>
   <footer>
-    &copy; 2026 Draco Ferreira Souza · Vancouver, BC
+    Draco Ferreira Souza &copy; 2026  · Vancouver, BC
   </footer>
 </body>
 </html>
