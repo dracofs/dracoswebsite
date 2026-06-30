@@ -1,4 +1,4 @@
-const passcode = femboydepression;
+const passcode = "femboydepression";
 
 function init() {
   const pass = document.getElementById("passcode");
